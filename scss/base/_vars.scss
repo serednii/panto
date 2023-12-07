@@ -1,0 +1,29 @@
+:root {
+    --text-color: #1e1e1e;
+    --text-muted: #8d8d8d;
+    --text-card-dark-blue: #0d1b39;
+    --accent: #E58411;
+
+    --footer-bg: #2D2F33;
+    --footer-text-color: #fff;
+    --header-text-color: #fff;
+
+    --ui-orange: #E58411;
+    --ui-biruza: #00D6C9;
+    --ui-gray: #7C7C7C;
+    --ui-dark-blue: #0d1b39;
+
+
+    --font-main: 'Gilroy', sans-serif;
+    --font-cards: 'Inter', sans-serif;
+    --font-footer-accent: 'DM Sans', sans-serif;
+}
+
+@mixin retina-bg ($image) {
+    @media 
+    (-webkit-min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi) { 
+        background-image: $image;
+    }
+
+}
