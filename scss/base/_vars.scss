@@ -4,8 +4,9 @@
     --text-card-dark-blue: #0d1b39;
     --accent: #E58411;
 
+    --footer-accent: #F6973F;
     --footer-bg: #2D2F33;
-    --footer-text-color: #fff;
+    --footer-text-color: rgba(255, 255, 255, 0.8);
     --header-text-color: #fff;
 
     --ui-orange: #E58411;
@@ -26,4 +27,34 @@
         background-image: $image;
     }
 
+}
+
+@mixin desktop-small(){
+  @media (max-width: 1400px) {
+    @content;
+  }
+}
+
+@mixin tablet(){
+    @media (max-width: 992px) {
+      @content;
+    }
+}
+
+@mixin mobile-xl(){
+    @media (max-width: 819px) {
+      @content;
+    }
+}
+
+@mixin mobile(){
+    @media (max-width: 629px) {
+      @content;
+    }
+}
+
+@mixin mobile-s(){
+  @media (max-width: 465px) {
+    @content;
+  }
 }

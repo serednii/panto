@@ -27,5 +27,9 @@
 
     &--active {
         background-color: #FFF;
+
+        &:hover {
+            background-color: #fff;
+        }
     }
 }

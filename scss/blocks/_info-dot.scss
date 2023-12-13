@@ -1,8 +1,6 @@
 
 .info-dot {
-    position: relative;
-    border: none;
-    background: none;
+    position: relative; 
     cursor: pointer;
 }
 
@@ -26,7 +24,6 @@
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(4px);
-
     animation: pulse 1s infinite alternate;
 }
 
