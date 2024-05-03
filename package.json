@@ -18,6 +18,7 @@
     "url": "https://github.com/SeredniaAnastasia/panto/issues"
   },
   "dependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "swiper": "^11.1.1"
   }
 }
